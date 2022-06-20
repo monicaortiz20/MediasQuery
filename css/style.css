@@ -1,0 +1,61 @@
+main{
+    background-color: black;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    }
+
+.container{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.header{
+    background-color: blue;
+    width: 100%;
+}
+
+.hero{
+    background-color: red;
+}
+
+.content{
+    background-color: green;
+    width: 100%;
+}
+
+.sidebar{
+    background-color: blueviolet;
+    width: 100%;
+}
+
+footer{
+    background-color: gray;
+    width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px){
+    section{
+        display: flex;
+    }    
+}
+
+@media only screen and (min-width: 1200px){
+    section{
+        display: flex;
+        align-content: center;
+        justify-content: center;      
+    }    
+
+    .content, .sidebar{
+        width: 40%;   
+        }
+
+}
